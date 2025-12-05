@@ -1,3 +1,17 @@
-node_modules
-dist
+# Directorio de dependencias de Node
+node_modules/
+
+# Archivos de logs
+*.log
+
+# Archivos de compilación de TypeScript/JS (Output)
+/dist/
+/build/
+
+# Ignorar archivos generados de declaración de tipos
+*.d.ts
+*.d.ts.map
+
+# Archivos de configuración sensibles (ej. contraseñas)
 .env
+.DS_Store # (Para usuarios de Mac)
